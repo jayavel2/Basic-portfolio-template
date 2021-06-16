@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    width: auto;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.banner{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg);
+    justify-content: center;
+    z-index: -1;
+}
+
+.banner-text{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    font-size: 70px;
+    padding-left: 40px;
+    color:rgb(248, 135, 135);
+    margin-left: 25px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 100px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.topnav{
+    display: flex;
+    position: fixed;
+    flex-direction: row;  
+    background-color: rgb(247, 234, 234); 
+    width: 100%;
+    height: 55px;
+}
+
+.topnav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 10;
+    list-style: none;
+    
+}
+.topnav-item{
+    padding: 20px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+.phn{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    font-size: 110px;
+    font-family: 'Lobster', cursive;
+    text-decoration: wavy;
+}
+
+.icons{
+    margin-left: 430px;
+    font-size: xx-large;
+}
+
+.line{
+    margin-left: 437px;
+    font-size: xx-large;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 337.5px;
+}
+
+.skills-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 205px;
+}
+
+.skills-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 353px;
+}
+
+.skill{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+}
+
+.skill-line{
+  padding-right: 200px;
+  font-size: xx-large;
+  margin-left: 84.5px ;
+}
+
+.skillset{
+    font-size: 27px;
+    font-family: 'Dancing Script', cursive ;
+    color: #666;
+    font-weight: 600;
+}
+
+.skillset-1{
+    font-size: 27px;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Dancing Script', cursive ;
+    font-weight: 600;
+    color: #666;
+}
+
+.skillset-2{
+    font-size: 27px;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 150px;
+    font-family: 'Dancing Script', cursive ;
+    font-weight: 600;
+    color: #666;
+}
+
+.pro-icon{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.pro-icons{
+    font-size:40px;
+    color: #666;
+    background-color:black(247, 234, 234); 
+    padding: 30px;
+    background-color:rgb(226, 169, 169); 
+    border-radius: 50%;
+}
+
+.form{
+    background-image: url(http://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    z-index: -1;
+    }
+
+ .contact{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }   
+
+ .topic{
+     font-size: xx-large;
+     padding: 20px;
+     margin-top: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Dancing Script', cursive ;
+     font-weight: 900;
+ }
+
+ .name{
+
+    height: 2rem;
+    width: 450px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+ }
+
+.mess{
+    width: 450px;
+    height: 6rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.sub{
+    width: 150px;
+    height: 2rem;
+    margin-top: 5rem;
+    border-radius: 19px;
+    cursor: pointer;
+   background-color: tomato;
+
+}
+
+.footer{
+    margin-top: 8rem;
+    background-color: slategrey;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+ 
+.left{
+    flex: 0.55;
+    list-style: none;
+    }
+
+ .social{
+    background-color:rgb(226, 169, 169); 
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 40px;
+ }   
+
+.right{
+    flex: 0.45;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foo-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-top: 25px !important;
+    color: black;
+}
